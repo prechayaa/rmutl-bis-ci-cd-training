@@ -14,5 +14,5 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: Show my message
         run: |
-          echo my-message.txt
+          less -FX my-message.txt
       - run: echo "🍏 This job's status is ${{ job.status }}."
